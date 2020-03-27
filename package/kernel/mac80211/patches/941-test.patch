@@ -1,0 +1,13 @@
+diff --git a/drivers/net/wireless/ath/regd.c b/drivers/net/wireless/ath/regd.c
+index 4781c67..4cefaa3 100644
+--- a/drivers/net/wireless/ath/regd.c
++++ b/drivers/net/wireless/ath/regd.c
+@@ -777,7 +777,7 @@ static int __ath_regd_init(struct ath_regulatory *reg)
+ 
+ 	printk(KERN_DEBUG "ath: Country alpha2 being used: %c%c\n",
+ 		reg->alpha2[0], reg->alpha2[1]);
+-	printk(KERN_DEBUG "ath: Regpair used: 0x%0x\n",
++	printk(KERN_DEBUG "++++++++++++++++++++++++ath: Regpair used: 0x%0x\n",
+ 		reg->regpair->reg_domain);
+ 
+ 	return 0;

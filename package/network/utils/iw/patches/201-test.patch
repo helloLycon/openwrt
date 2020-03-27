@@ -1,0 +1,13 @@
+diff --git a/iw.c b/iw.c
+index 6ec5a12..fcff516 100755
+--- a/iw.c
++++ b/iw.c
+@@ -247,7 +247,7 @@ static void usage_cmd(const struct cmd *cmd)
+ 
+ static void version(void)
+ {
+-	printf("iw version %s\n", iw_version);
++	printf("++++++++++++iw version %s\n", iw_version);
+ }
+ 
+ static int phy_lookup(char *name)
